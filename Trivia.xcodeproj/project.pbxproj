@@ -17,6 +17,7 @@
 		9926AB4729DFAE1500860532 /* TriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */; };
 		E278ED1A2BA2A35E004C57E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278ED192BA2A35E004C57E5 /* MainViewController.swift */; };
 		E278ED1C2BA2A942004C57E5 /* triviaQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278ED1B2BA2A942004C57E5 /* triviaQuestions.swift */; };
+		E278ED1E2BA2C2C8004C57E5 /* trivia-new.gif in Resources */ = {isa = PBXBuildFile; fileRef = E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E278ED192BA2A35E004C57E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E278ED1B2BA2A942004C57E5 /* triviaQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = triviaQuestions.swift; path = "../../../week4:redone/project5-redone/trivia/trivia/triviaQuestions.swift"; sourceTree = "<group>"; };
+		E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "trivia-new.gif"; path = "../../../../../../Downloads/trivia-new.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				9926AB4429DFAE1500860532 /* TriviaUITests.swift */,
 				9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */,
+				E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */,
 			);
 			path = TriviaUITests;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E278ED1E2BA2C2C8004C57E5 /* trivia-new.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

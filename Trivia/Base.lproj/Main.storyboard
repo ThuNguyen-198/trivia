@@ -48,7 +48,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
-                                    <action selector="answer2Btn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="UYS-Q4-582"/>
                                     <action selector="answerBtn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="EL9-Qe-M2w"/>
                                 </connections>
                             </button>
@@ -61,7 +60,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
-                                    <action selector="answer3Btn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="Iys-tm-lcr"/>
                                     <action selector="answerBtn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="6TN-MJ-Dz8"/>
                                 </connections>
                             </button>
@@ -83,7 +81,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
-                                    <action selector="answer4Btn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="sZ2-K6-2ex"/>
                                     <action selector="answerBtn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="20h-BT-UiY"/>
                                 </connections>
                             </button>

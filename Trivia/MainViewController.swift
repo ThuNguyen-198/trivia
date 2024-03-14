@@ -49,22 +49,22 @@ class MainViewController: UIViewController {
     
     @IBAction func answerBtn(_ sender: Any) {
         
-        index = (index == 2) ? 0 : index + 1
+        index = (index+1)%3
         updateQuestion(index: index)
     }
     
-    @IBAction func answer2Btn(_ sender: UIButton) {
-        index = (index == 2) ? 0 : index + 1
+    @IBAction func answer2Btn(_ sender: Any) {
+        index = (index+1)%3
         updateQuestion(index: index)
     }
     
-    @IBAction func answer3Btn(_ sender: UIButton) {
-        index = (index == 2) ? 0 : index + 1
+    @IBAction func answer3Btn(_ sender: Any) {
+        index = (index+1)%3
         updateQuestion(index: index)
     }
     
-    @IBAction func answer4Btn(_ sender: UIButton) {
-        index = (index == 2) ? 0 : index + 1
+    @IBAction func answer4Btn(_ sender: Any) {
+        index = (index+1)%3
         updateQuestion(index: index)
     }
     
