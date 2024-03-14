@@ -52,7 +52,7 @@
 		9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E278ED192BA2A35E004C57E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E278ED1B2BA2A942004C57E5 /* triviaQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = triviaQuestions.swift; path = "../../../week4:redone/project5-redone/trivia/trivia/triviaQuestions.swift"; sourceTree = "<group>"; };
-		E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "trivia-new.gif"; path = "../../../../../../Downloads/trivia-new.gif"; sourceTree = "<group>"; };
+		E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "trivia-new.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,7 @@
 		9926AB1729DFAE1300860532 = {
 			isa = PBXGroup;
 			children = (
+				E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */,
 				9926AB2229DFAE1400860532 /* Trivia */,
 				9926AB3929DFAE1500860532 /* TriviaTests */,
 				9926AB4329DFAE1500860532 /* TriviaUITests */,
@@ -128,7 +129,6 @@
 			children = (
 				9926AB4429DFAE1500860532 /* TriviaUITests.swift */,
 				9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */,
-				E278ED1D2BA2C2C8004C57E5 /* trivia-new.gif */,
 			);
 			path = TriviaUITests;
 			sourceTree = "<group>";
