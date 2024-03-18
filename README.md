@@ -1,26 +1,27 @@
-# Project 3 - *Trivia*
+# Project 4 - *Trivia*
 
 Submitted by: **Thu Nguyen**
 
-**Name of your app** is an app that ... [TODO] 
+**Name of your app** is an app that allows users to play trivia.
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can view the current question and 4 different answers
-- [x] User can view the next question after tapping an answer
-- [x] User can answer at least 3 different questions
+- [x] User can view and answer at least 5 trivia questions.
+- [x] App retrieves question data from the Open Trivia Database API.
+- [x] Fetch a different set of questions if the user indicates they would like to reset the game.
+- [ ] Users can see score after submitting all questions.
+- [ ] True or False questions only have two options.
 
 
 The following **optional** features are implemented:
 
-- [ ] User can use the vertical orientation of the app on any device
-- [ ] User can track the question they are on and how many questions are left
-- [ ] User can see how many questions they got correct after answering all questions
-- [ ] User should be able to restart the game after they've finished answering all questions
+  
+- [ ] Allow the user to choose a specific category of questions.
+- [ ] Provide the user feedback on whether each question was correct before navigating to the next.
 
 The following **additional** features are implemented:
 
@@ -28,7 +29,9 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<image src="https://github.com/ThuNguyen-198/trivia/blob/main/trivia-new.gif" width=200/>
+Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+
+[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
 
 ## Notes
 
