@@ -63,15 +63,6 @@
                                     <action selector="answerBtn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="6TN-MJ-Dz8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-eh-lB6">
-                                <rect key="frame" x="10" y="180.33333333333337" width="373" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="llO-XU-Vxy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZD-EG-eeu">
                                 <rect key="frame" x="15" y="645.33333333333337" width="363" height="50"/>
                                 <constraints>
@@ -82,6 +73,24 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
                                     <action selector="answerBtn:" destination="tKz-eD-p4a" eventType="touchUpInside" id="20h-BT-UiY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-eh-lB6">
+                                <rect key="frame" x="10" y="180.33333333333337" width="373" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="llO-XU-Vxy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2I9-Vu-jWv">
+                                <rect key="frame" x="155" y="736" width="83" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Refresh"/>
+                                <connections>
+                                    <action selector="refresh:" destination="tKz-eD-p4a" eventType="touchUpInside" id="UW5-Pa-ZPa"/>
                                 </connections>
                             </button>
                         </subviews>
