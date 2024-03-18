@@ -2,7 +2,7 @@
 
 Submitted by: **Thu Nguyen**
 
-**Name of your app** is an app that allows users to play trivia.
+**Trivia** is an app that allows users to play trivia.
 
 Time spent: **5** hours spent in total
 
