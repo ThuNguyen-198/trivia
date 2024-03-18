@@ -60,12 +60,23 @@ class MainViewController: UIViewController {
 
     func updateQuestion(index: Int) {
         questionNumber.text = "Question: \(index + 1)/5"
-        self.questionContainer.text = questions[index].question
+        
+        // Decode HTML entities in the question text
+        let questionText = decodeHTMLString(questions[index].question)
+        self.questionContainer.text = questionText
+        
         self.questionContainer.numberOfLines = 0
         self.questionType.text = questions[index].category
         self.answer.setTitle(questions[index].correct_answer, for: .normal)
         self.answer2.setTitle(questions[index].incorrect_answers[0], for: .normal)
         self.answer3.setTitle(questions[index].incorrect_answers[1], for: .normal)
         self.answer4.setTitle(questions[index].incorrect_answers[2], for: .normal)
+    }
+    
+    // Function to decode HTML entities in a string
+    func decodeHTMLString(_ htmlString: String) -> String {
+        guard let data = htmlString.data(using: .utf8) else { return htmlString }
+        guard let attributedString = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) else { return htmlString }
+        return attributedString.string
     }
 }
